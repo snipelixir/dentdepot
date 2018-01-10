@@ -21,7 +21,21 @@
 				<div class="auto-container">
 					<div class="row clearfix">
 						<!--Logo-->
-						<div class="col-md-3 col-sm-3 col-xs-12 logo"><a href="<?=bloginfo('url')?>"><img src="<?=get_template_directory_uri() . '/images/logo.png'?>" alt="<?= bloginfo('name') ?>" title="<?= bloginfo('name') ?>"></a></div>
+						<div class="col-md-3 col-sm-3 col-xs-12 logo">
+							<a href="<?=bloginfo('url')?>">
+								<?php
+									$custom_logo_id = get_theme_mod('custom_logo');
+									$logo = wp_get_attachment_image_src($custom_logo_id, 'full');
+									if (has_custom_logo()) :	?>
+										<img src="<?=esc_url($logo[0])?>" alt="<?= bloginfo('name') ?>" alt="<?= bloginfo('name') ?>">
+							<?php	else : ?>
+										<img src="<?=get_template_directory_uri() . '/images/logo.png'?>" alt="<?= bloginfo('name') ?>" title="<?= bloginfo('name') ?>">
+							<?php	endif;
+								?>
+
+								
+							</a>
+						</div>
 						
 						<div class="col-lg-5 col-md-6 col-sm-10 header-top-infos pull-right">
 							<ul class="clearfix">
