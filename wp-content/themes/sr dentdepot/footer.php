@@ -2,8 +2,8 @@
     <section class="contact-options">
     	<div class="clearfix">
         	<ul class="info-box clearfix wow bounceInRight">
-            	<li><a href="contact.html"><span class="fa fa-calendar"></span> Make an appointment</a></li>
-                <li><a href="contact.html"><span class="fa fa-phone"></span> Contact Us</a> </li>
+            	<li><a href="<?=bloginfo('url') . '/schedule-appointment/'?>"><span class="fa fa-calendar"></span> Make an appointment</a></li>
+                <li><a href="tel:8445004245"><span class="fa fa-phone"></span> Call Us Today</a> </li>
             </ul>
         </div>
     </section>
@@ -19,12 +19,11 @@
                     <div class="col-md-3 col-sm-12 col-xs-12">
                     	<div class="footer-widget contact-widget">
                         	<h3>Contact Us</h3>
-                        	<div class="text">If you are in the middle of something and you don’t want to miss that important call that could be the start of an exciting new business.</div>
+                        	<div class="text">Our customers receive the highest quality service with no money out of pocket and zero time off the road. Contact us today.</div>
                             <ul class="info">
-                            	<li><strong>Email</strong> <a href="mailto:carshire@email.com">carshire@email.com</a></li>
-                                <li><strong>Phone</strong> <a href="#">+49 123 456 789</a></li>
-                                <li><strong>Fax</strong> <a href="#">+49 123 456 789</a></li>
-                                <li><strong>Website</strong> <a href="http://www.envato.com/">http://www.envato.com</a></li>
+                            	<li><strong>Email</strong> <a href="mailto:info@dentdepot.net">info@dentdepot.net</a></li>
+                                <li><strong>Phone</strong> <a href="tel:8445004245"> (844)500-4245</a></li>
+                                <li>2327 S. Broadway Denver CO, 80210</li>
                             </ul>
                         </div>
                     </div>

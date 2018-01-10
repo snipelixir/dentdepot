@@ -32,8 +32,6 @@
 										<img src="<?=get_template_directory_uri() . '/images/logo.png'?>" alt="<?= bloginfo('name') ?>" title="<?= bloginfo('name') ?>">
 							<?php	endif;
 								?>
-
-								
 							</a>
 						</div>
 						
@@ -42,7 +40,7 @@
 								<li>
 									<div class="clearfix ">
 										<img src="<?= get_template_directory_uri() . '/images/icons/header-phone.png' ?>" alt="">
-										<p><b>Call Us Now</b> <br>(123) 456 7890</p>
+										<p><b>Call Us Now</b> <br> (844) 500-4245</a></p>
 									</div>
 								</li>
 								<li>
