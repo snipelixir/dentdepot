@@ -1,5 +1,18 @@
 <?php
 
+add_theme_support('menus');
+
+function register_my_menus()
+{
+    register_nav_menus(
+        [
+            'header-menu' => __('Header Menu'),
+            'extra-menu' => __('Extra Menu')
+        ]
+    );
+}
+add_action('init', 'register_my_menus');
+
 function srv_theme_styles() {
     wp_enqueue_style('bootstrap_css', get_template_directory_uri() . '/css/bootstrap.css');
     wp_enqueue_style('revolution_slider', get_template_directory_uri() . '/css/revolution-slider.css');

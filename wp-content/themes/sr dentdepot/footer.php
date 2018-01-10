@@ -81,7 +81,7 @@
         	<div class="auto-container">
 
             	<div class="row clearfix">
-                    <div class="col-md-6 col-sm-12 col-xs-12"><div class="copyright">Copryright <?=date('Y')?> by <a href="<?=bloginfo('url')?>"> <?= bloginfo('name') ?></a> | All rights reserved</div></div>
+                    <div class="col-md-6 col-sm-12 col-xs-12"><div class="copyright">Copryright &copy; <?=date('Y')?> by <a href="<?=bloginfo('url')?>"> <?= bloginfo('name') ?></a> | All rights reserved</div></div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="social-links">
                             <a href="#" class="fa fa-facebook-f"></a>

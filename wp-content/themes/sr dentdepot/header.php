@@ -60,7 +60,17 @@
 								</button>
 							</div>
 							
-							<div class="navbar-collapse collapse clearfix">                                                                                              
+							<?php
+							wp_nav_menu(
+								[
+									'theme_location' => 'header-menu',
+									'container' => 'div',
+									'container_class' => 'navbar-collapse collapse clearfix',
+									'menu_class' => 'navigation'
+								]
+							); ?>
+
+							<!-- <div class="navbar-collapse collapse clearfix">                                                                                              
 								<ul class="navigation">
 									<li class="current dropdown"><a href="index.html">Home</a>
 										<ul class="submenu">
@@ -107,7 +117,7 @@
 										</ul>
 									</li>
 								</ul>
-							</div>
+							</div> -->
 						</nav>
 						<!--Main Menu End-->
 						
