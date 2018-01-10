@@ -1,6 +1,4 @@
-(function($) {
-	
-	"use strict";
+jQuery(document).ready(function ($) {
 	
 	
 	//Hide Loading Box (Preloader)
@@ -385,4 +383,4 @@
 	});
 	
 
-})(window.jQuery);
+});
