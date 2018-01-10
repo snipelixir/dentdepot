@@ -18,116 +18,24 @@
                     <h1><?php the_title(); ?></h1>
                 </div>
                 <div class="bread-crumb text-right">
-                    <span class="initial-text">you are here: </span>
-                    <span class="current">Pricing</span>
+                    <?php if (function_exists('bcn_display')) {
+                        bcn_display();
+                    } ?>
                 </div>
             </div>
         </section>
 
         <!--page content-->
-        <section class="price-plans">
-            <div class="auto-container">
-                
-                <div class="sec-title">
-                    <h3 class="skew-lines"><?php the_title(); ?></h3>
+        <section class="tabs-section">
+    	    <div class="auto-container">
+        	    <div class="row">
+                    <div class="tabs-box clearfix">
+                        <!--Content Side-->
+                        <div class="col-md-12 col-sm-12 col-xs-12 tabs-content clearfix">
+                            <?=the_content();?>
+                        </div>
+                    </div>
                 </div>
-                
-                <div class="row clearfix">
-                    
-                    <!--Table Column-->
-                    <article class="col-md-3 col-sm-6 col-xs-12 table-column wow fadeIn" data-wow-delay="0ms" data-wow-duration="1000ms">
-                        <div class="table-inner">
-                            <div class="table-header">
-                                <h3>BASIC PLAN</h3>
-                            </div>
-                            <div class="price-column price">
-                                <h4 class="amount">79<sup>$</sup></h4>
-                                <p>ONE Time</p>
-                            </div>
-                            <div class="list">
-                                <ul>
-                                    <li>yearly car inspection</li>
-                                    <li>outside car wash</li>
-                                    <li>speed drive and test</li>
-                                    <li>full polishing</li>
-                                </ul>
-                            </div>
-                            
-                            <a href="#" class="read-more hvr-bounce-to-right"><span class="fa fa-angle-right"></span> order now</a>
-                        </div>
-                    </article>
-                    
-                    <!--Table Column-->
-                    <article class="col-md-3 col-sm-6 col-xs-12 table-column wow fadeIn" data-wow-delay="200ms" data-wow-duration="1000ms">
-                        <div class="table-inner">
-                            <div class="table-header">
-                                <h3>PREMIUM PLAN</h3>
-                            </div>
-                            <div class="price-column price">
-                                <h4 class="amount">99<sup>$</sup></h4>
-                                <p>ONE Time</p>
-                            </div>
-                            <div class="list">
-                                <ul>
-                                    <li>yearly car inspection</li>
-                                    <li>outside car wash</li>
-                                    <li>speed drive and test</li>
-                                    <li>full polishing</li>
-                                </ul>
-                            </div>
-                            
-                            <a href="#" class="read-more hvr-bounce-to-right"><span class="fa fa-angle-right"></span> order now</a>
-                        </div>
-                    </article>
-                    
-                    <!--Table Column-->
-                    <article class="col-md-3 col-sm-6 col-xs-12 table-column wow fadeIn" data-wow-delay="400ms" data-wow-duration="1000ms">
-                        <div class="table-inner">
-                            <div class="table-header">
-                                <h3>PLATINUM PLAN</h3>
-                            </div>
-                            <div class="price-column price">
-                                <h4 class="amount">269<sup>$</sup></h4>
-                                <p>ONE Time</p>
-                            </div>
-                            <div class="list">
-                                <ul>
-                                    <li>yearly car inspection</li>
-                                    <li>outside car wash</li>
-                                    <li>speed drive and test</li>
-                                    <li>full polishing</li>
-                                </ul>
-                            </div>
-                            
-                            <a href="#" class="read-more hvr-bounce-to-right"><span class="fa fa-angle-right"></span> order now</a>
-                        </div>
-                    </article>
-                    
-                    <!--Table Column-->
-                    <article class="col-md-3 col-sm-6 col-xs-12 table-column wow fadeIn" data-wow-delay="600ms" data-wow-duration="1000ms">
-                        <div class="table-inner">
-                            <div class="table-header">
-                                <h3>ULTIMATE PLAN</h3>
-                            </div>
-                            <div class="price-column price">
-                                <h4 class="amount">399<sup>$</sup></h4>
-                                <p>ONE Time</p>
-                            </div>
-                            <div class="list">
-                                <ul>
-                                    <li>yearly car inspection</li>
-                                    <li>outside car wash</li>
-                                    <li>speed drive and test</li>
-                                    <li>full polishing</li>
-                                </ul>
-                            </div>
-                            
-                            <a href="#" class="read-more hvr-bounce-to-right"><span class="fa fa-angle-right"></span> order now</a>
-                        </div>
-                    </article>
-                    
-                </div>
-                
             </div>
         </section>
 
