@@ -21,19 +21,19 @@
 				<div class="auto-container">
 					<div class="row clearfix">
 						<!--Logo-->
-						<div class="col-md-3 col-sm-3 col-xs-12 logo"><a href="index.html"><img src="images/logo.png" alt="Carshire" title="Carshire"></a></div>
+						<div class="col-md-3 col-sm-3 col-xs-12 logo"><a href="<?=bloginfo('url')?>"><img src="<?=get_template_directory_uri() . '/images/logo.png'?>" alt="<?= bloginfo('name') ?>" title="<?= bloginfo('name') ?>"></a></div>
 						
 						<div class="col-lg-5 col-md-6 col-sm-10 header-top-infos pull-right">
 							<ul class="clearfix">
 								<li>
 									<div class="clearfix ">
-										<img src="images/icons/header-phone.png" alt="">
+										<img src="<?= get_template_directory_uri() . '/images/icons/header-phone.png' ?>" alt="">
 										<p><b>Call Us Now</b> <br>(123) 456 7890</p>
 									</div>
 								</li>
 								<li>
 									<div class="clearfix ">
-										<img src="images/icons/header-timer.png" alt="">
+										<img src="<?= get_template_directory_uri() . '/images/icons/header-timer.png' ?>" alt="">
 										<p><b>Opening Hours</b> <br>Mon - Sat 9.00 - 19.00</p>
 									</div>
 								</li>

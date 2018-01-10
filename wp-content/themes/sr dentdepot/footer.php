@@ -1,4 +1,14 @@
-    <!--Main Footer-->
+	<!--Contact Options-->
+    <section class="contact-options">
+    	<div class="clearfix">
+        	<ul class="info-box clearfix wow bounceInRight">
+            	<li><a href="contact.html"><span class="fa fa-calendar"></span> Make an appointment</a></li>
+                <li><a href="contact.html"><span class="fa fa-phone"></span> Contact Us</a> </li>
+            </ul>
+        </div>
+    </section>
+	
+	<!--Main Footer-->
     <footer class="main-footer">
     	<!--Footer Upper-->
     	<div class="footer-upper">
@@ -71,7 +81,7 @@
         	<div class="auto-container">
 
             	<div class="row clearfix">
-                    <div class="col-md-6 col-sm-12 col-xs-12"><div class="copyright">Copryright 2015 by Carshire | All rights reserved</div></div>
+                    <div class="col-md-6 col-sm-12 col-xs-12"><div class="copyright">Copryright <?=date('Y')?> by <a href="<?=bloginfo('url')?>"> <?= bloginfo('name') ?></a> | All rights reserved</div></div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="social-links">
                             <a href="#" class="fa fa-facebook-f"></a>

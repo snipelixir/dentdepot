@@ -7,8 +7,8 @@
             <div class="tp-banner" >
                 <ul>
                     
-                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-1.jpg"  data-saveperformance="off"  data-title="Awsome Service">
-                    <img src="images/main-slider/image-1.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="<?= get_template_directory_uri() . '/images/main-slider/image-1.jpg' ?>"  data-saveperformance="off"  data-title="Awsome Service">
+                    <img src="<?= get_template_directory_uri() . '/images/main-slider/image-1.jpg' ?>"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
                     
                     <div class="tp-caption lfl tp-resizeme"
                     data-x="center" data-hoffset="0"
@@ -41,8 +41,8 @@
                     
                     </li>
                     
-                    <li data-transition="slidedown" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-2.jpg"  data-saveperformance="off"  data-title="Professional Mechanics">
-                    <img src="images/main-slider/image-2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                    <li data-transition="slidedown" data-slotamount="1" data-masterspeed="1000" data-thumb="<?=get_template_directory_uri() . '/images/main-slider/image-2.jpg'?>"  data-saveperformance="off"  data-title="Professional Mechanics">
+                    <img src="<?=get_template_directory_uri() . '/images/main-slider/image-2.jpg'?>"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
                     
                     <div class="tp-caption lft tp-resizeme"
                     data-x="center" data-hoffset="0"
@@ -75,8 +75,8 @@
                     
                     </li>
                     
-                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-3.jpg"  data-saveperformance="off"  data-title="Reachable Place">
-                    <img src="images/main-slider/image-3.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="<?=get_template_directory_uri() . '/images/main-slider/image-3.jpg'?>"  data-saveperformance="off"  data-title="Reachable Place">
+                    <img src="<?=get_template_directory_uri() . '/images/main-slider/image-3.jpg'?>"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
                     
                     <div class="tp-caption lfr tp-resizeme"
                     data-x="center" data-hoffset="0"
@@ -164,7 +164,7 @@
                 <article class="col-md-4 col-sm-6 col-xs-12 column-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
                 	<div class="inner-box">
                     	<figure class="image">
-                        	<a href="#"><img src="images/resource/post-image-1.jpg" alt="Image" title="Featured Service"></a>
+                        	<a href="#"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-1.jpg' ?>" alt="Image" title="Featured Service"></a>
                             <figcaption class="price"><sup>$</sup>89</figcaption>
                         </figure>
                         <div class="post-content clearfix">
@@ -187,7 +187,7 @@
                 <article class="col-md-4 col-sm-6 col-xs-12 column-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
                 	<div class="inner-box">
                     	<figure class="image">
-                        	<a href="#"><img src="images/resource/post-image-2.jpg" alt="Image" title="Featured Service"></a>
+                        	<a href="#"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-2.jpg' ?>" alt="Image" title="Featured Service"></a>
                             <figcaption class="price"><sup>$</sup>59</figcaption>
                         </figure>
                         <div class="post-content clearfix">
@@ -209,7 +209,7 @@
                 <article class="col-md-4 col-sm-6 col-xs-12 column-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
                 	<div class="inner-box">
                     	<figure class="image">
-                        	<a href="#"><img src="images/resource/post-image-3.jpg" alt="Image" title="Featured Service"></a>
+                        	<a href="#"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-3.jpg' ?>" alt="Image" title="Featured Service"></a>
                             <figcaption class="price"><sup>$</sup>29</figcaption>
                         </figure>
                         <div class="post-content clearfix">
@@ -244,8 +244,8 @@
         	<div class="gallery-slider column-carousel four-column">
             	
                 <article class="slide-item">
-                	<figure class="image-box"><a href="images/resource/post-image-4.jpg" class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-4.jpg" alt=""></a></figure>
-                    <a href="images/resource/post-image-4.jpg" class="overlay lightbox-image" title="Awsome Title Here"></a>
+                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-4.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-4.jpg' ?>" alt=""></a></figure>
+                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-4.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
                     <div class="item-caption">
                     	<h4><strong>CLEAN &amp; PAINT</strong></h4>
                         <p>Mercedes Benz Company Car</p>
@@ -253,8 +253,8 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><a href="images/resource/post-image-5.jpg" class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-5.jpg" alt=""></a></figure>
-                    <a href="images/resource/post-image-5.jpg" class="overlay lightbox-image" title="Awsome Title Here"></a>
+                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-5.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-5.jpg' ?>" alt=""></a></figure>
+                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-5.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
                     <div class="item-caption">
                     	<h4><strong>CLEAN &amp; PAINT</strong></h4>
                         <p>Mercedes Benz Company Car</p>
@@ -262,8 +262,8 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><a href="images/resource/post-image-6.jpg" class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-6.jpg" alt=""></a></figure>
-                    <a href="images/resource/post-image-6.jpg" class="overlay lightbox-image" title="Awsome Title Here"></a>
+                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-6.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-6.jpg' ?>" alt=""></a></figure>
+                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-6.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
                     <div class="item-caption">
                     	<h4><strong>CLEAN &amp; PAINT</strong></h4>
                         <p>Mercedes Benz Company Car</p>
@@ -271,8 +271,8 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><a href="images/resource/post-image-7.jpg" class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-7.jpg" alt=""></a></figure>
-                    <a href="images/resource/post-image-7.jpg" class="overlay lightbox-image" title="Awsome Title Here"></a>
+                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-7.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-7.jpg' ?>" alt=""></a></figure>
+                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-7.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
                     <div class="item-caption">
                     	<h4><strong>CLEAN &amp; PAINT</strong></h4>
                         <p>Mercedes Benz Company Car</p>
@@ -280,8 +280,8 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><a href="images/resource/post-image-8.jpg" class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-8.jpg" alt=""></a></figure>
-                    <a href="images/resource/post-image-8.jpg" class="overlay lightbox-image" title="Awsome Title Here"></a>
+                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-8.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-8.jpg' ?>" alt=""></a></figure>
+                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-8.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
                     <div class="item-caption">
                     	<h4><strong>CLEAN &amp; PAINT</strong></h4>
                         <p>Mercedes Benz Company Car</p>
@@ -289,8 +289,8 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><a href="images/resource/post-image-9.jpg" class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-9.jpg" alt=""></a></figure>
-                    <a href="images/resource/post-image-9.jpg" class="overlay lightbox-image" title="Awsome Title Here"></a>
+                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-9.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-9.jpg' ?>" alt=""></a></figure>
+                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-9.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
                     <div class="item-caption">
                     	<h4><strong>CLEAN &amp; PAINT</strong></h4>
                         <p>Mercedes Benz Company Car</p>
@@ -298,8 +298,8 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><a href="images/resource/post-image-10.jpg" class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-10.jpg" alt=""></a></figure>
-                    <a href="images/resource/post-image-10.jpg" class="overlay lightbox-image" title="Awsome Title Here"></a>
+                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-10.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-10.jpg' ?>" alt=""></a></figure>
+                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-10.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
                     <div class="item-caption">
                     	<h4><strong>CLEAN &amp; PAINT</strong></h4>
                         <p>Mercedes Benz Company Car</p>
@@ -307,8 +307,8 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><a href="images/resource/post-image-11.jpg" class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-11.jpg" alt=""></a></figure>
-                    <a href="images/resource/post-image-11.jpg" class="overlay lightbox-image" title="Awsome Title Here"></a>
+                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-11.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-11.jpg' ?>" alt=""></a></figure>
+                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-11.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
                     <div class="item-caption">
                     	<h4><strong>CLEAN &amp; PAINT</strong></h4>
                         <p>Mercedes Benz Company Car</p>
@@ -316,8 +316,8 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><a href="images/resource/post-image-10.jpg" class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-10.jpg" alt=""></a></figure>
-                    <a href="images/resource/post-image-10.jpg" class="overlay lightbox-image" title="Awsome Title Here"></a>
+                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-10.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-10.jpg' ?>" alt=""></a></figure>
+                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-10.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
                     <div class="item-caption">
                     	<h4><strong>CLEAN &amp; PAINT</strong></h4>
                         <p>Mercedes Benz Company Car</p>
@@ -325,8 +325,8 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><a href="images/resource/post-image-12.jpg" class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-12.jpg" alt=""></a></figure>
-                    <a href="images/resource/post-image-12.jpg" class="overlay lightbox-image" title="Awsome Title Here"></a>
+                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-12.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-12.jpg' ?>" alt=""></a></figure>
+                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-12.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
                     <div class="item-caption">
                     	<h4><strong>CLEAN &amp; PAINT</strong></h4>
                         <p>Mercedes Benz Company Car</p>
@@ -334,8 +334,8 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><a href="images/resource/post-image-13.jpg" class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-13.jpg" alt=""></a></figure>
-                    <a href="images/resource/post-image-13.jpg" class="overlay lightbox-image" title="Awsome Title Here"></a>
+                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-13.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-13.jpg' ?>" alt=""></a></figure>
+                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-13.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
                     <div class="item-caption">
                     	<h4><strong>CLEAN &amp; PAINT</strong></h4>
                         <p>Mercedes Benz Company Car</p>
@@ -343,8 +343,8 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><a href="images/resource/post-image-9.jpg" class="lightbox-image" title="Awsome Title Here"><img src="images/resource/post-image-9.jpg" alt=""></a></figure>
-                    <a href="images/resource/post-image-9.jpg" class="overlay lightbox-image" title="Awsome Title Here"></a>
+                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-9.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-9.jpg' ?>" alt=""></a></figure>
+                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-9.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
                     <div class="item-caption">
                     	<h4><strong>CLEAN &amp; PAINT</strong></h4>
                         <p>Mercedes Benz Company Car</p>
@@ -637,29 +637,19 @@
     <section class="sponsors">
     	<div class="auto-container">
         	<ul class="slider">
-            	<li><a href="#"><img src="images/clients/logo-6.png" alt="" title=""></a></li>
-                <li><a href="#"><img src="images/clients/logo-7.png" alt="" title=""></a></li>
-                <li><a href="#"><img src="images/clients/logo-8.png" alt="" title=""></a></li>
-                <li><a href="#"><img src="images/clients/logo-9.png" alt="" title=""></a></li>
-                <li><a href="#"><img src="images/clients/logo-10.png" alt="" title=""></a></li>
-                <li><a href="#"><img src="images/clients/logo-6.png" alt="" title=""></a></li>
-                <li><a href="#"><img src="images/clients/logo-7.png" alt="" title=""></a></li>
-                <li><a href="#"><img src="images/clients/logo-8.png" alt="" title=""></a></li>
-                <li><a href="#"><img src="images/clients/logo-9.png" alt="" title=""></a></li>
-                <li><a href="#"><img src="images/clients/logo-10.png" alt="" title=""></a></li>
+            	<li><a href="#"><img src="<?=get_template_directory_uri() . '/images/clients/logo-8.png'?>" alt="logo" title=""></a></li>
+                <li><a href="#"><img src="<?=get_template_directory_uri() . '/images/clients/logo-7.png'?>" alt="logo" title=""></a></li>
+                <li><a href="#"><img src="<?=get_template_directory_uri() . '/images/clients/logo-8.png'?>" alt="logo" title=""></a></li>
+                <li><a href="#"><img src="<?=get_template_directory_uri() . '/images/clients/logo-9.png'?>" alt="logo" title=""></a></li>
+                <li><a href="#"><img src="<?=get_template_directory_uri() . '/images/clients/logo-10.png'?>" alt="logo" title=""></a></li>
+                <li><a href="#"><img src="<?=get_template_directory_uri() . '/images/clients/logo-8.png'?>" alt="logo" title=""></a></li>
+                <li><a href="#"><img src="<?=get_template_directory_uri() . '/images/clients/logo-7.png'?>" alt="logo" title=""></a></li>
+                <li><a href="#"><img src="<?=get_template_directory_uri() . '/images/clients/logo-8.png'?>" alt="logo" title=""></a></li>
+                <li><a href="#"><img src="<?=get_template_directory_uri() . '/images/clients/logo-9.png'?>" alt="logo" title=""></a></li>
+                <li><a href="#"><img src="<?=get_template_directory_uri() . '/images/clients/logo-10.png'?>" alt="logo" title=""></a></li>
             </ul>
         </div>
     </section>
     
-    
-    <!--Contact Options-->
-    <section class="contact-options">
-    	<div class="clearfix">
-        	<ul class="info-box clearfix wow bounceInRight">
-            	<li><a href="contact.html"><span class="fa fa-calendar"></span> Make an appointment</a></li>
-                <li><a href="contact.html"><span class="fa fa-phone"></span> Contact Us</a> </li>
-            </ul>
-        </div>
-    </section>
 
 <?php get_footer(); ?>
