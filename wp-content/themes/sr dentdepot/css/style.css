@@ -3373,7 +3373,7 @@ flaticon-transport100
 	background:#fb4848;	
 }
 
-.sidebar-page .pagination a{
+.sidebar-page .pagination a, .sidebar-page .pagination span{
 	position:relative;
 	display:block;
 	line-height:20px;
@@ -3390,7 +3390,7 @@ flaticon-transport100
 	-moz-border-radius:0px !important;	
 }
 
-.sidebar-page .pagination a:hover,.sidebar-page .pagination a.active{
+.sidebar-page .pagination a:hover,.sidebar-page .pagination span.current{
 	background:#fb4848;
 	color:#ffffff;
 }

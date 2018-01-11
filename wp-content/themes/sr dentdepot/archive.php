@@ -20,19 +20,24 @@
                 <!-- Left Content -->
                 <section class="left-content col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
+                <div class="leader">
+                    <h1><?php wp_title(''); ?> Blog Posts</h1>
+                </div>
+
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 	
                     <!-- Post -->
                     <article class="post wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="post-image">
 
-                        <?php if(the_post_thumbnail()): ?>
+                        <?php if (the_post_thumbnail()) : ?>
 
-                            <img class="img-responsive" src="<?= the_post_thumbnail('large') ?>" alt="<?=the_post_thumbnail_caption()?>">
+                            <img class="img-responsive" src="<?= the_post_thumbnail('large') ?>" alt="<?= the_post_thumbnail_caption() ?>">
                             
                         <?php endif; ?>
 
                         <?php
+
                         /**
                          * retrieve comments count
                          */
@@ -46,8 +51,8 @@
                             <div class="caption">
                                 <div class="date"><span class="day"><?php echo get_the_date('d'); ?></span><span class="month"><?php echo get_the_date('M'); ?></span></div>
                                 
-                                <?php if($num_comments > 0): ?>
-                                    <div class="comments"><span class="fa fa-comments"></span> &ensp; <?=$num_comments;?></div>
+                                <?php if ($num_comments > 0) : ?>
+                                    <div class="comments"><span class="fa fa-comments"></span> &ensp; <?= $num_comments; ?></div>
                                 <?php endif; ?>
                                 
                             </div>
@@ -57,10 +62,10 @@
                         <div class="content-box">
                             <h2 class="post-title"><a href="<?= the_permalink(); ?>"><?= the_title(); ?></a></h2>
                             <div class="post-info">
-                                Posted on <?php echo get_the_date(); ?> <?php if($num_comments > 0): ?>/ <a href="<?= the_permalink(); ?>"> <?php comments_number('no responses', $num_comments. ' Comment', $num_comments. ' Comments'); ?> <?php endif; ?> </a> / in <?= the_category(', '); ?>
+                                Posted on <?php echo get_the_date(); ?> <?php if ($num_comments > 0) : ?>/ <a href="<?= the_permalink(); ?>"> <?php comments_number('no responses', $num_comments . ' Comment', $num_comments . ' Comments'); ?> <?php endif; ?> </a> / in <?= the_category(', '); ?>
 
                             </div>
-                            <div class="post-text"><?=the_excerpt();?></div>
+                            <div class="post-text"><?= the_excerpt(); ?></div>
                             <div class="text-right"><a class="theme-btn dark-btn" href="<?= the_permalink(); ?>">READ MORE</a></div>
                         </div>
                     </article>
@@ -70,11 +75,13 @@
                 <?php _e('Sorry, no posts available', 'textdomain'); ?>
             <?php endif; ?>
 
+                    <!-- Pagination -->
                     <?php get_template_part('blog', 'pagination'); ?>
+                
                 </section>
 
                 <!-- Side Bar -->
-                <?=get_sidebar();?>
+                <?= get_sidebar(); ?>
 
             </div>
         </div>
