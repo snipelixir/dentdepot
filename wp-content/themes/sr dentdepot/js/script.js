@@ -26,12 +26,12 @@ jQuery(document).ready(function ($) {
 	
 	
 	//Submenu Dropdown Toggle
-	if($('.main-header li.dropdown .submenu').length){
+	if($('.main-header li.dropdown .sub-menu').length){
 		$('.main-header li.dropdown').append('<div class="dropdown-btn"></div>');
 		
 		//Dropdown Button
 		$('.main-header li.dropdown .dropdown-btn').on('click', function() {
-			$(this).prev('.submenu').slideToggle(500);
+			$(this).prev('.sub-menu').slideToggle(500);
 		});
 	}
 	
