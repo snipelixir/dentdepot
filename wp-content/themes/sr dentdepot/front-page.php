@@ -232,130 +232,6 @@
         </div>    
     </section>
     
-    <!--Our Gallery-->
-    <section class="gallery-section">
-		<div class="auto-container">
-            
-            <div class="sec-title">
-                <h3>Our Gallery</h3>
-            </div>
-            
-            <!--Carousel-->
-        	<div class="gallery-slider column-carousel four-column">
-            	
-                <article class="slide-item">
-                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-4.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-4.jpg' ?>" alt=""></a></figure>
-                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-4.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
-                    <div class="item-caption">
-                    	<h4><strong>CLEAN &amp; PAINT</strong></h4>
-                        <p>Mercedes Benz Company Car</p>
-                    </div>
-                </article>
-                
-                <article class="slide-item">
-                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-5.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-5.jpg' ?>" alt=""></a></figure>
-                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-5.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
-                    <div class="item-caption">
-                    	<h4><strong>CLEAN &amp; PAINT</strong></h4>
-                        <p>Mercedes Benz Company Car</p>
-                    </div>
-                </article>
-                
-                <article class="slide-item">
-                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-6.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-6.jpg' ?>" alt=""></a></figure>
-                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-6.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
-                    <div class="item-caption">
-                    	<h4><strong>CLEAN &amp; PAINT</strong></h4>
-                        <p>Mercedes Benz Company Car</p>
-                    </div>
-                </article>
-                
-                <article class="slide-item">
-                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-7.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-7.jpg' ?>" alt=""></a></figure>
-                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-7.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
-                    <div class="item-caption">
-                    	<h4><strong>CLEAN &amp; PAINT</strong></h4>
-                        <p>Mercedes Benz Company Car</p>
-                    </div>
-                </article>
-                
-                <article class="slide-item">
-                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-8.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-8.jpg' ?>" alt=""></a></figure>
-                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-8.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
-                    <div class="item-caption">
-                    	<h4><strong>CLEAN &amp; PAINT</strong></h4>
-                        <p>Mercedes Benz Company Car</p>
-                    </div>
-                </article>
-                
-                <article class="slide-item">
-                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-9.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-9.jpg' ?>" alt=""></a></figure>
-                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-9.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
-                    <div class="item-caption">
-                    	<h4><strong>CLEAN &amp; PAINT</strong></h4>
-                        <p>Mercedes Benz Company Car</p>
-                    </div>
-                </article>
-                
-                <article class="slide-item">
-                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-10.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-10.jpg' ?>" alt=""></a></figure>
-                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-10.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
-                    <div class="item-caption">
-                    	<h4><strong>CLEAN &amp; PAINT</strong></h4>
-                        <p>Mercedes Benz Company Car</p>
-                    </div>
-                </article>
-                
-                <article class="slide-item">
-                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-11.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-11.jpg' ?>" alt=""></a></figure>
-                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-11.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
-                    <div class="item-caption">
-                    	<h4><strong>CLEAN &amp; PAINT</strong></h4>
-                        <p>Mercedes Benz Company Car</p>
-                    </div>
-                </article>
-                
-                <article class="slide-item">
-                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-10.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-10.jpg' ?>" alt=""></a></figure>
-                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-10.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
-                    <div class="item-caption">
-                    	<h4><strong>CLEAN &amp; PAINT</strong></h4>
-                        <p>Mercedes Benz Company Car</p>
-                    </div>
-                </article>
-                
-                <article class="slide-item">
-                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-12.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-12.jpg' ?>" alt=""></a></figure>
-                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-12.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
-                    <div class="item-caption">
-                    	<h4><strong>CLEAN &amp; PAINT</strong></h4>
-                        <p>Mercedes Benz Company Car</p>
-                    </div>
-                </article>
-                
-                <article class="slide-item">
-                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-13.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-13.jpg' ?>" alt=""></a></figure>
-                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-13.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
-                    <div class="item-caption">
-                    	<h4><strong>CLEAN &amp; PAINT</strong></h4>
-                        <p>Mercedes Benz Company Car</p>
-                    </div>
-                </article>
-                
-                <article class="slide-item">
-                	<figure class="image-box"><a href="<?=get_template_directory_uri() . '/images/resource/post-image-9.jpg'?>" class="lightbox-image" title="Awsome Title Here"><img src="<?= get_template_directory_uri() . '/images/resource/post-image-9.jpg' ?>" alt=""></a></figure>
-                    <a href="<?= get_template_directory_uri() . '/images/resource/post-image-9.jpg' ?>" class="overlay lightbox-image" title="Awsome Title Here"></a>
-                    <div class="item-caption">
-                    	<h4><strong>CLEAN &amp; PAINT</strong></h4>
-                        <p>Mercedes Benz Company Car</p>
-                    </div>
-                </article>
-                
-            </div>
-            
-        </div>    
-    </section>
-    
     
     <!--Testimonials-->
     <section class="testimonials-section">
@@ -368,7 +244,7 @@
         	<div class="testimonials-slider column-carousel three-column">
             	
                 <article class="slide-item">
-                	<figure class="image-box"><img src="images/resource/author-thumb.jpg" alt=""></figure>
+                	<figure class="image-box"><img src="<?=get_template_directory_uri() . '/images/resource/author-thumb.jpg'?>" alt=""></figure>
                     <div class="slide-text">
                         <p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
                     </div>
@@ -380,7 +256,7 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><img src="images/resource/testi-image-5.jpg" alt=""></figure>
+                	<figure class="image-box"><img src="<?= get_template_directory_uri() . '/images/resource/testi-image-5.jpg' ?>" alt=""></figure>
                     <div class="slide-text">
                         <p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
                     </div>
@@ -392,7 +268,7 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><img src="images/resource/testi-image-7.jpg" alt=""></figure>
+                	<figure class="image-box"><img src="<?=get_template_directory_uri() . '/images/resource/testi-image-7.jpg'?>" alt=""></figure>
                     <div class="slide-text">
                         <p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
                     </div>
@@ -404,7 +280,7 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><img src="images/resource/author-thumb.jpg" alt=""></figure>
+                	<figure class="image-box"><img src="<?=get_template_directory_uri() . '/images/resource/author-thumb.jpg'?>" alt=""></figure>
                     <div class="slide-text">
                         <p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
                     </div>
@@ -416,7 +292,7 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><img src="images/resource/testi-image-5.jpg" alt=""></figure>
+                	<figure class="image-box"><img src="<?=get_template_directory_uri() . '/images/resource/testi-image-5.jpg'?>" alt=""></figure>
                     <div class="slide-text">
                         <p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
                     </div>
@@ -428,7 +304,7 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><img src="images/resource/testi-image-7.jpg" alt=""></figure>
+                	<figure class="image-box"><img src="<?=get_template_directory_uri() . '/images/resource/testi-image-7.jpg'?>" alt=""></figure>
                     <div class="slide-text">
                         <p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
                     </div>
@@ -440,7 +316,7 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><img src="images/resource/author-thumb.jpg" alt=""></figure>
+                	<figure class="image-box"><img src="<?=get_template_directory_uri() . '/images/resource/author-thumb.jpg'?>" alt=""></figure>
                     <div class="slide-text">
                         <p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
                     </div>
@@ -452,7 +328,7 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><img src="images/resource/testi-image-5.jpg" alt=""></figure>
+                	<figure class="image-box"><img src="<?=get_template_directory_uri() . '/images/resource/testi-image-5.jpg'?>" alt=""></figure>
                     <div class="slide-text">
                         <p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
                     </div>
@@ -464,7 +340,7 @@
                 </article>
                 
                 <article class="slide-item">
-                	<figure class="image-box"><img src="images/resource/testi-image-7.jpg" alt=""></figure>
+                	<figure class="image-box"><img src="<?= get_template_directory_uri() . '/images/resource/testi-image-7.jpg' ?>" alt=""></figure>
                     <div class="slide-text">
                         <p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
                     </div>
@@ -493,16 +369,7 @@
                 <article class="column-box team-box">
                 	<div class="inner-box hvr-float-shadow">
                     	<figure class="image">
-                        	<a href="#"><img src="images/resource/team-image-1.jpg" alt="Image" title="Team Member"></a>
-                            <div class="social-links">
-                            	<div class="plus-btn"></div>
-                                <ul class="links">
-                                	<li><a href="#" class="fa fa-facebook-f"></a></li>
-                                    <li><a href="#" class="fa fa-twitter"></a></li>
-                                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                                    <li><a href="#" class="fa fa-instagram"></a></li>
-                                </ul>
-                            </div>
+                        	<img src="<?= get_template_directory_uri() . '/images/resource/team-image-3.jpg' ?>" alt="Image" title="Team Member">
                         </figure>
                         <div class="post-content text-center clearfix">
                         	<h3>Jonathan Doe</h3>
@@ -514,16 +381,7 @@
                 <article class="column-box team-box">
                 	<div class="inner-box hvr-float-shadow">
                     	<figure class="image">
-                        	<a href="#"><img src="images/resource/team-image-2.jpg" alt="Image" title="Team Member"></a>
-                            <div class="social-links">
-                            	<div class="plus-btn"></div>
-                                <ul class="links">
-                                	<li><a href="#" class="fa fa-facebook-f"></a></li>
-                                    <li><a href="#" class="fa fa-twitter"></a></li>
-                                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                                    <li><a href="#" class="fa fa-instagram"></a></li>
-                                </ul>
-                            </div>
+                        	<img src="<?= get_template_directory_uri() . '/images/resource/team-image-4.jpg' ?>" alt="Image" title="Team Member">
                         </figure>
                         <div class="post-content text-center clearfix">
                         	<h3>Markus Harving</h3>
@@ -535,40 +393,11 @@
                 <article class="column-box team-box">
                 	<div class="inner-box hvr-float-shadow">
                     	<figure class="image">
-                        	<a href="#"><img src="images/resource/team-image-3.jpg" alt="Image" title="Team Member"></a>
-                            <div class="social-links">
-                            	<div class="plus-btn"></div>
-                                <ul class="links">
-                                	<li><a href="#" class="fa fa-facebook-f"></a></li>
-                                    <li><a href="#" class="fa fa-twitter"></a></li>
-                                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                                    <li><a href="#" class="fa fa-instagram"></a></li>
-                                </ul>
-                            </div>
+                        	<img src="<?= get_template_directory_uri() . '/images/resource/team-image-5.jpg' ?>" alt="Image" title="Team Member">
+                            
                         </figure>
                         <div class="post-content text-center clearfix">
                         	<h3>Jason Blackhead</h3>
-                            <h5 class="occupation">Mechanic Worker</h5>
-                        </div>
-                    </div>
-                </article>
-                
-                <article class="column-box team-box">
-                	<div class="inner-box hvr-float-shadow">
-                    	<figure class="image">
-                        	<a href="#"><img src="images/resource/team-image-4.jpg" alt="Image" title="Team Member"></a>
-                            <div class="social-links">
-                            	<div class="plus-btn"></div>
-                                <ul class="links">
-                                	<li><a href="#" class="fa fa-facebook-f"></a></li>
-                                    <li><a href="#" class="fa fa-twitter"></a></li>
-                                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                                    <li><a href="#" class="fa fa-instagram"></a></li>
-                                </ul>
-                            </div>
-                        </figure>
-                        <div class="post-content text-center clearfix">
-                        	<h3>Eathan Stone</h3>
                             <h5 class="occupation">Mechanic Worker</h5>
                         </div>
                     </div>
@@ -586,7 +415,7 @@
                 	<h3>Check out our repair service for your car and get a free CLEAN</h3>
                 </div>
                 <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 text-right">
-                	<a href="#" class="theme-btn dark-btn style-two"><span class="fa fa-angle-right"></span> order now</a>
+                	<a href="<?=bloginfo('url'). '/schedule-appointment'?>" class="theme-btn dark-btn style-two"><span class="fa fa-angle-right"></span> get quote</a>
                 </div>
             </div>
         </div>
