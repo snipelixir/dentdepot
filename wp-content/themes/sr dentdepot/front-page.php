@@ -430,7 +430,50 @@
             
             <!--Column Carousel-->
         	<div class="column-carousel two-column clearfix">
-                <article class="column-box blog-box">
+
+                <?php
+                $args = array(
+                    'numberposts' => 4,
+                    'orderby' => 'post_date',
+                    'order' => 'DESC',
+                    'post_type' => 'post',
+                    'post_status' => 'publish',
+                );
+
+                $recent_posts = wp_get_recent_posts($args, ARRAY_A);
+                foreach ($recent_posts as $recent) : ?>
+
+                    <article class="column-box blog-box">
+                        <div class="inner-box">
+                            <figure class="image" style="background-image:url(<?= get_the_post_thumbnail_url($recent['ID'], array(299, 260)); ?>);">
+                                <a href="<?= get_permalink($recent["ID"]) ?>"><?= get_the_post_thumbnail($recent['ID'], array(299, 260)); ?></a>
+                            </figure>
+                            <div class="post-content clearfix">
+                                <h3 class="post-title"><a href="<?= get_permalink($recent["ID"]) ?>"><?= substr($recent['post_title'], 0, 16) ?> ...</a></h3>
+                                <h5 class="date">posted on <?php echo get_the_date('F j, Y', $recent["ID"]); ?></h5>
+                                <div class="text">
+                                    <?php 
+                                    if(!empty($recent["post_excerpt"]))
+                                        $excerpt = $recent["post_excerpt"];
+                                    else
+                                        $excerpt = $recent["post_content"];
+                                    
+                                        
+                                    if(strlen($excerpt) > 71)
+                                        echo substr($excerpt, 0, 71). '...';
+                                    else
+                                        echo $excerpt;
+                                    ?>
+                                </div>
+                                <div class="text-right link"><a href="<?= get_permalink($recent["ID"]) ?>" class="theme-btn dark-btn">Read More</a></div>
+                            </div>
+                        </div>
+                    </article>
+
+        <?php endforeach;
+        wp_reset_query(); ?>
+
+                <!-- <article class="column-box blog-box">
                 	<div class="inner-box">
                     	<figure class="image" style="background-image:url(images/resource/post-image-4.jpg);">
                         	<a href="#"><img src="images/resource/post-image-4.jpg" alt="Image" title="Blog Image"></a>
@@ -456,7 +499,7 @@
                             <div class="text-right link"><a href="#" class="theme-btn dark-btn">Read More</a></div>
                         </div>
                     </div>
-                </article>
+                </article> -->
                 
             </div>
         </div>    
