@@ -16,23 +16,25 @@
     <div class="widget latest-posts">
         <div class="sec-title"><h3>Latest Blog Posts</h3></div>
         
-        <div class="post">
-            <div class="post-thumb"><a href="#"><img src="images/resource/post-thumb-1.jpg" alt=""></a></div>
-            <h4><a href="#">New car arrivals...</a></h4>
-            <div class="post-info"><a href="#">March 13, 2015</a>  / &nbsp;<a href="#"><span class="fa fa-comments"></span> &nbsp; 33</a></div>
-        </div>
-        
+        <?php
+        $args = array(
+            'numberposts' => 3,
+            'orderby' => 'post_date',
+            'order' => 'DESC',
+            'post_type' => 'post',
+            'post_status' => 'publish',
+        );
+
+        $recent_posts = wp_get_recent_posts($args, ARRAY_A);
+        foreach ($recent_posts as $recent): ?>
             <div class="post">
-            <div class="post-thumb"><a href="#"><img src="images/resource/post-thumb-2.jpg" alt=""></a></div>
-            <h4><a href="#">Our full servicelist</a></h4>
-            <div class="post-info"><a href="#">March 11, 2015</a>  / &nbsp;<a href="#"><span class="fa fa-comments"></span> &nbsp; 12</a></div>
-        </div>
-        
-            <div class="post">
-            <div class="post-thumb"><a href="#"><img src="images/resource/post-thumb-3.jpg" alt=""></a></div>
-            <h4><a href="#">Repaired cars</a></h4>
-            <div class="post-info"><a href="#">March 10, 2015</a>  / &nbsp;<a href="#"><span class="fa fa-comments"></span> &nbsp; 52</a></div>
-        </div>
+                <div class="post-thumb"><a href="#"><?= get_the_post_thumbnail($recent['ID'], array(71, 67)); ?></a></div>
+                <h4><a href="<?= get_permalink($recent["ID"]) ?>"><?= substr($recent['post_title'], 0, 16) ?> ...</a></h4>
+                <div class="post-info"><a href="<?= get_permalink($recent["ID"]) ?>"><?php echo get_the_date('F j, Y', $recent["ID"]); ?></a></div>
+            </div>
+
+        <?php endforeach;
+        wp_reset_query(); ?>
         
     </div>
     
