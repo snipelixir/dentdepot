@@ -56,16 +56,14 @@
         ?>
 
     </div>
-    
-    <!-- Latest Updates -->
-    <div class="widget latest-updates">
-        <div class="sec-title"><h3>Latest Updates</h3></div>
-        <div class="update-box">
-            <h4>Text Area</h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
+
+    <!-- widget area -->
+    <?php if(! dynamic_sidebar('blog')): ?>
+        <div class="widget latest-updates">
+            <div class="sec-title"><h3>Set some widget here</h3></div>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
         </div>
-        
-    </div>
+    <?php endif; ?>
 
 
 </aside>

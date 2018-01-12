@@ -8,6 +8,24 @@ add_theme_support('post-thumbnails');
 add_theme_support('custom-logo');
 
 /**
+ * widget support for sidebar
+ */
+function srv_create_widget($name, $id, $desc) 
+{
+    register_sidebar(array(
+        'name' => __($name),
+        'id' => $id,
+        'description' => __($desc),
+        'before_widget' => '<div class="widget latest-updates">',
+        'after_widget' => '</div></div>',
+        'before_title' => '<div class="sec-title"><h3>',
+        'after_title' => '</h3></div><div class="update-box">',
+    ));
+}
+
+srv_create_widget('Blog Sidebar', 'blog', 'display a sample widget');
+
+/**
  * support for dynamic menu
  */
 add_theme_support('menus');
