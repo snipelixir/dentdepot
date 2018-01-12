@@ -21,7 +21,7 @@
                 <section class="left-content col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
                 <div class="alert alert-info">
-                    <h4><?php wp_title(''); ?> Blog Posts</h4>
+                    <h4><?php wp_title(''); ?></h4>
                 </div>
 
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
