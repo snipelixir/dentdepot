@@ -29,32 +29,24 @@
                     </div>
                     
                     <!--Footer Widget-->
-                    <div class="col-md-3 col-sm-12 col-xs-12">
+
+                    <!-- widget area -->
+                    <?php if (!dynamic_sidebar('footer1')) : ?>
+                        <div class="col-md-3 col-sm-12 col-xs-12">
                     	<div class="footer-widget services-widget">
-                        	<h3>Our Services</h3>
-                        	<ul class="links">
-                            	<li><a href="#"><i class="fa fa-check-circle"></i>Car cleaning and washing</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle"></i>Yearly car inspection view</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle"></i>Car repair and change service</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle"></i>Car selling and buying service</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle"></i>Test driving and speed test</a></li>
-                            </ul>
+                        	<h3>Set a widget here</h3>
                         </div>
                     </div>
+                    <?php endif; ?>
                     
                     <!--Footer Widget-->
-                    <div class="col-md-3 col-sm-12 col-xs-12">
-                    	<div class="footer-widget support-widget">
-                        	<h3>Our Support</h3>
-                        	<ul class="links">
-                            	<li><a href="#"><i class="fa fa-check-circle"></i>How to get started?</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle"></i>Frequently asked questions</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle"></i>Customer testimonials</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle"></i>Get a free quote</a></li>
-                                <li><a href="#"><i class="fa fa-check-circle"></i>Help &amp; Support Center</a></li>
-                            </ul>
+                    <?php if (!dynamic_sidebar('footer2')) : ?>
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                    	<div class="footer-widget services-widget">
+                        	<h3>Set a widget here</h3>
                         </div>
                     </div>
+                    <?php endif; ?>
                     
                     <!--Footer Widget-->
                     <div class="col-md-3 col-sm-12 col-xs-12">

@@ -8,7 +8,7 @@ add_theme_support('post-thumbnails');
 add_theme_support('custom-logo');
 
 /**
- * widget support for sidebar
+ * widget support for blog sidebar
  */
 function srv_create_widget($name, $id, $desc) 
 {
@@ -23,7 +23,27 @@ function srv_create_widget($name, $id, $desc)
     ));
 }
 
-srv_create_widget('Blog Sidebar', 'blog', 'display a sample widget');
+srv_create_widget('Blog Sidebar', 'blog', 'display widgets in the blog sidebar');
+
+
+/**
+ * widget support for footer
+ */
+function srv_create_footer_widget($name, $id, $desc)
+{
+    register_sidebar(array(
+        'name' => __($name),
+        'id' => $id,
+        'description' => __($desc),
+        'before_widget' => '<div class="col-md-3 col-sm-12 col-xs-12"><div class="footer-widget support-widget">',
+        'after_widget' => '</div></div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>',
+    ));
+}
+
+srv_create_footer_widget('Footer Area One', 'footer1', 'display a widget in the footer region');
+srv_create_footer_widget('Footer Area Two', 'footer2', 'display a widget in the footer region');
 
 /**
  * support for dynamic menu
