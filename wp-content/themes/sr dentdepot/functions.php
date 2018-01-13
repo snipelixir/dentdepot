@@ -1,5 +1,8 @@
 <?php
 
+/*update_option('siteurl', 'http://dentdepot.site');
+update_option('home', 'http://dentdepot.site');*/
+
 add_theme_support('post-thumbnails'); 
 
 /**
