@@ -3,7 +3,7 @@
     <!-- Search Form -->
     <div class="widget search-form">
         
-        <form role="search" method="get" id="searchform" class="searchform" action="<?=bloginfo('url')?>">
+        <form role="search" method="get" id="searchform" class="searchform" action="<?php echo get_permalink(get_option('page_for_posts')); ?>">
             <div class="form-group">
                 <input type="search" name="s" id="s" value="" placeholder="search for something">
                 <button type="submit" id="searchsubmit"><span class="fa fa-search"></span></button>
