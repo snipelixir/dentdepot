@@ -313,19 +313,19 @@ jQuery(document).ready(function ($) {
 		var map;
 		 map = new GMaps({
 			el: '#map-location',
-			zoom: 14,
+			zoom: 17,
 			scrollwheel:false,
 			//Set Latitude and Longitude Here
-			lat: -37.817085,
-			lng: 144.955631
+			lat: 39.6749937,
+			lng: -104.9896694
 		  });
 		  
 		  //Add map Marker
 		  map.addMarker({
-			lat: -37.817085,
-			lng: 144.955631,
+			  lat: 39.6743422,
+			  lng: -104.987956,
 			infoWindow: {
-			  content: '<p style="text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
+				content: '<p style="text-align:center;"><strong>Dentdepot</strong><br>2327 South Broadway, Denver, CO 80210 USA</p>'
 			}
 		 
 		});
