@@ -47,6 +47,7 @@ function srv_create_footer_widget($name, $id, $desc)
 
 srv_create_footer_widget('Footer Area One', 'footer1', 'display a widget in the footer region');
 srv_create_footer_widget('Footer Area Two', 'footer2', 'display a widget in the footer region');
+srv_create_footer_widget('Footer Area Three', 'footer3', 'display a widget in the footer region');
 
 /**
  * support for dynamic menu

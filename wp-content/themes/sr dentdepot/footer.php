@@ -49,18 +49,13 @@
                     <?php endif; ?>
                     
                     <!--Footer Widget-->
-                    <div class="col-md-3 col-sm-12 col-xs-12">
-                    	<div class="footer-widget newsletter-widget">
-                        	<h3>Quick Contact</h3>
-                        	<form action="#" class="clearfix">
-                        		<p><input type="text" placeholder="Your Name"></p>
-                        		<p><input type="text" placeholder="Your Email"></p>
-                        		<p><textarea placeholder="Your Message"></textarea></p>
-                        		<p><button class="hvr-bounce-to-right" type="submit">Send Message</button></p>
-                        	</form>
-                            
+                    <?php if (!dynamic_sidebar('footer3')) : ?>
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                    	<div class="footer-widget services-widget">
+                        	<h3>Set a widget here</h3>
                         </div>
                     </div>
+                    <?php endif; ?>
                     
                 </div>
             </div>
