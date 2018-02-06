@@ -287,8 +287,8 @@ jQuery(document).ready(function ($) {
 	
 	
 	//Contact Form Validation
-	if($('#contact-form').length){
-		$('#contact-form').validate({
+	if ($('div#wpcf7-f122-p32-o1 form.wpcf7-form').length){
+		$('div#wpcf7-f122-p32-o1 form.wpcf7-form').validate({
 			rules: {
 				username: {
 					required: true
@@ -298,7 +298,7 @@ jQuery(document).ready(function ($) {
 					email: true
 				},
 				subject: {
-					required: true
+					required: false
 				},
 				message: {
 					required: true

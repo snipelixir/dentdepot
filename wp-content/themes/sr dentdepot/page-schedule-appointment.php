@@ -30,46 +30,7 @@ Template Name: Schelude Appointment
                             <div class="msg-text">Fill out all required fields to send a message, or call us today at <a href="tel:8445004245">(844)500-4245</a> for more information. Thank you!</div>
                             
                             <!--Contact Form-->
-                            <form id="contact-form" method="post" action="http://world5.commonsupport.com/html/carshire/sendemail.php">
-                                <div class="row clearfix">
-                                    
-                                    <div class="col-md-5 col-sm-12 col-xs-12">
-                                        
-                                        <div class="form-group">
-                                            <label class="form-label">Name</label>
-                                            <input type="text" name="username" value="" placeholder="Enter Your Name">
-                                        </div>
-                                        
-                                        <div class="form-group">
-                                            <label class="form-label">Email</label>
-                                            <input type="email" name="email" value="" placeholder="Enter Your Email Address">
-                                        </div>
-                                        
-                                        <div class="clearfix"></div>
-                                        
-                                        <div class="form-group">
-                                            <label class="form-label">Subject</label>
-                                            <input type="text" name="subject" value="" placeholder="Enter a Subject">
-                                        </div>
-                                        
-                                    </div>
-                                    
-                                    <div class="col-md-7 col-sm-12 col-xs-12">
-                                        
-                                        <div class="form-group">
-                                            <label class="form-label">Message</label>
-                                            <textarea name="message" placeholder="Type Message Here"></textarea>
-                                        </div>
-                                        
-                                    </div>
-                                    
-                                </div>
-                                
-                                <div class="form-group text-right">
-                                    <button type="submit" name="submit-form" class="theme-btn dark-btn hvr-bounce-to-right"><span class="fa fa-envelope"></span> Send Message</button>
-                                </div>
-                                
-                            </form>
+                            <?=the_content()?>
                                 
                         </div>
                         
